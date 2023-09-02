@@ -1,0 +1,68 @@
+create database adega;
+use adega;
+create table produtos( id int AUTO_INCREMENT, nome varchar(60), preco real(10,2), descricao varchar(1000), PRIMARY KEY (id) );
+
+insert into produtos (id, nome, preco, descricao) values (1, 'Orloff',50.00,'Vodka Orloff
+Bebida alcoólica
+Teor alcoólico 38%');
+insert into produtos (id, nome, preco, descricao) values (2, 'Tanqueray',130.00,'Gin Tanqueray
+Bebida alcoólica
+Teor alcoólico 47.3%');
+insert into produtos (id, nome, preco, descricao) values (3, 'White Horse',90.00,'Whisky White Horse
+Bebida alcoólica
+Teor alcoólico 40%');
+insert into produtos (id, nome, preco, descricao) values (4, 'Jack Daniels',160.00,'Whisky Jack Daniels
+Bebida alcoólica
+Teor alcoólico 50%');
+insert into produtos (id, nome, preco, descricao) values (5, 'Royal Salute',900.00,'Whisky Royal Salute
+21 anos
+Bebida alcoólica
+Teor alcoólico 40%');
+insert into produtos (id, nome, preco, descricao) values (6, 'Royal Salute',900.00,'Whisky Royal Salute
+21 anos
+Bebida alcoólica
+Teor alcoólico 40%');
+insert into produtos (id, nome, preco, descricao) values (7, 'Heineken', 5.50,'Cerveja Heineken (lata)
+Bebida alcoólica
+Teor alcoólico 5.0%');
+insert into produtos (id, nome, preco, descricao) values (8, 'Amstel', 4.20,'Cerveja Brhama (lata)
+Bebida alcoólica
+Teor alcoólico 4.5%');
+insert into produtos (id, nome, preco, descricao) values (9, 'Brahma', 3.48,'Cerveja Brhama (lata)
+Bebida alcoólica
+Teor alcoólico 4.5%');
+insert into produtos (id, nome, preco, descricao) values (10, 'Stella Artois', 4.89,'Cerveja Stella Artois (lata)
+Bebida alcoólica
+Teor alcoólico 5%');
+insert into produtos (id, nome, preco, descricao) values (10, 'BECKS', 3.99,'Cerveja Becks (lata)
+Bebida alcoólica
+Teor alcoólico 5.0%');
+insert into produtos (id, nome, preco, descricao) values (12, 'FIVE', 12.00,'Drink FIVE
+Sabor: Variado
+Bebida alcoólica
+Teor alcoólico 17%');
+insert into produtos (id, nome, preco, descricao) values (13, 'Mikes', 12.00,'Drink Mikes
+Sabor: Tangerina
+Bebida alcoólica
+Teor alcoólico 5%');
+insert into produtos (id, nome, preco, descricao) values (14, 'Mikes', 12.00,'Drink Mikes
+Sabor: Tangerina
+Bebida alcoólica
+Teor alcoólico 5%');
+insert into produtos (id, nome, preco, descricao) values (15, 'Coca-Cola', 4.00,'Refrigerante
+Sabor: Cola');
+insert into produtos (id, nome, preco, descricao) values (16, 'Fanta', 3.75,'Refrigerante
+Sabor: Laranja');
+insert into produtos (id, nome, preco, descricao) values (17, 'Sprite',  3.75,'Refrigerante
+Sabor: Limão
+Sem açúcar');
+insert into produtos (id, nome, preco, descricao) values (18, 'Guaraná Antartica', 3.20,'Refrigerante
+Sabor: Guaraná');
+insert into produtos (id, nome, preco, descricao) values (19, 'Del Valle', 3.99,'Suco
+Sabor: Variados');
+insert into produtos (id, nome, preco, descricao) values (20, 'Red Bull', 10.00,'Bebida energética
+Sabor: Tradicional
+Não alcoólica');
+insert into produtos (id, nome, preco, descricao) values (21, 'Monster', 6.50,'Bebida energética
+Sabor: Energy
+Não alcoólica');

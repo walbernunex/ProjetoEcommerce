@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adega Crystal</title>
+    <link href = "css/ecommerce.css" rel = "stylesheet"/>
+</head>
+<body class="home">
+    <header>
+        <div class="menu" >
+        <div class="logo"><img src="imagens/logofundo.png" /></div>
+        <div class="center">
+                <div classe="name">Adega Crystal</div>
+            </div>     
+            <div class="menu" >
+                <ul>
+                    <li><a href="index.html"> &#x1F3D8  Início</a></li>
+                    <li><a href="produtos.html"> &#x1F942 Produtos</a>
+                    <ul>
+                    <li><a href="produtos.html"> &#x1F37E Destilados</a></li>
+                    <li><a href="produtos.html"> &#x1F37A Cervejas</a></li>
+                    <li><a href="produtos.html"> &#x1F379 Drinks</a></li>
+                    <li><a href="produtos.html"> &#x1F964 Refrigerantes e Sucos</a></li>
+                    <li><a href="produtos.html"> &#x2795 Outros</a></li>
+                    </ul>
+                    </li>
+                    <ul>
+                    <li><a href="carrinho.html">&#x1F6D2 Carrinho</a></li>
+                    <li><a href="fale.html">&#x1F4AC Fale Conosco</a></li>
+                    </ul>
+            </div>    
+        </div>
+    </header>
+
+    <div class="faleconosco">
+    <form name="faleconoscojs"  method="post" id="form" onsubmit="return validando()">
+        <h1>Fale Conosco</h1>
+        <label for="inputNome">Nome Completo:</label>
+        <input type="text" id="nome"  name="nome" placeholder="Digite seu nome completo"><br>
+
+        <label for="inputEmail">E-mail:</label>
+        <input type="email" id="email" name="email"  placeholder="Digite seu E-mail" ><br>
+
+        <label for="textoMensagem">Mensagem:</label>
+        <textarea  name="mensagem" placeholder="Digite sua Mensagem"  cols="30" rows="10" id="textoMensagem" ></textarea><br>
+
+        <label for="inputTelefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"  placeholder="Digite seu Telefone"><br>
+
+        <button type="submit" >Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+    </div>
+
+    <script type="text/javascript">
+        function validando(){
+            var nome = faleconoscojs.nome.value;
+            var email = faleconoscojs.email.value;
+            var mensagem = faleconoscojs.mensagem.value;
+            var telefone = faleconoscojs.telefone.value;
+
+            if(nome == ""){
+                alert("Prencha o campo Nome.");
+                faleconoscojs.nome.focus();
+                return false;
+            }
+            if(email == ""){
+                alert("Prencha o campo E-mail.");
+                faleconoscojs.email.focus();
+                return false;
+            }
+            if(mensagem == ""){
+                alert("Prencha o campo Mensagem.");
+                faleconoscojs.mensagem.focus();
+                return false;
+            }
+            if(telefone == ""){
+                alert("Prencha o campo Telefone.");
+                faleconoscojs.telefone.focus();
+                return false;
+            }
+        }
+
+        
+    </script>
+
+    <div class="lei"><p>&#x2757 Não vendemos bebidas acoólicas para menores de 18 anos. &#x2757</p></div>
+    <footer>
+        <h1>Entre em contato</h1>
+        <p>Dev: Walber Nunes</p>
+        <p>Telefone: (31) 9 8355-9969</p>
+        <p>Email: walberrodriguess@hotmail.com</p>
+    </footer>
+</body>
+</html>
