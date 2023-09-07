@@ -18,4 +18,4 @@ Projeto desenvolvido na faculdade em meu 2° Semestre. Displina Desenvolvimento 
 ### Linguagens de Programação
 ![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript)
 
-
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
